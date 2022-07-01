@@ -20,7 +20,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
 
       - name: Load yarn cache
-        uses: actions/cache@v2.1.7
+        uses: actions/cache@v3.0.4
         id: yarn-cache
         with:
           path: ./node_modules
